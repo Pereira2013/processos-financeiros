@@ -5,9 +5,8 @@ import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
 @Getter
-public enum Method {
-
-    DEBIT,
-    CREDIT
+public enum TransactionStatus {
+    PAID,
+    WAITING_FOUNDS
 
 }
