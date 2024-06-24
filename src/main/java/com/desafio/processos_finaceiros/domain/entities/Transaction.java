@@ -24,9 +24,9 @@ import static com.desafio.processos_finaceiros.domain.exception.MessageErrorCode
 public class Transaction {
 
     @Id
-    private UUID id;
+    private String id;
 
-    @Id
+
     private UUID merchantId;
 
     @NotEmpty(message = FIELD_MAY_NOT_BE_NULL)
