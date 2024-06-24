@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: processos-finaceiros
+
+  data:
+    datasource:
+      url: mongodb://localhost:27017/processos
+      auto-index-creation: false
