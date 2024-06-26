@@ -22,7 +22,7 @@ import static com.desafio.processos_finaceiros.domain.exception.MessageErrorCode
 @Data
 @Builder
 @JsonNaming(PropertyNamingStrategies.SnakeCaseStrategy.class)
-public class TransactionRequest {
+public class TransactionCreateRequest {
 
     @NotEmpty(message = FIELD_MAY_NOT_BE_NULL)
     private UUID merchantId;
